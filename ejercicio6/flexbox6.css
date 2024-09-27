@@ -1,0 +1,17 @@
+div.padre {
+    background-color: black;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.padre p {
+    background-color: #0078a6;
+    margin: 0;
+    height: 150px;
+    width: 150px;
+}
+body {
+    margin: 0;
+}
