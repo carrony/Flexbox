@@ -1,0 +1,30 @@
+div.padre
+{ display: flex;
+    flex-direction: column;
+
+
+
+}
+p.a
+{
+    background-color:#0078A6;
+}
+p.b
+{
+    background-color:#0084B5 ;
+}
+p.c
+{
+    background-color:#008CC1 ;
+}
+.padre p
+{
+    margin: 0;
+    color: white;
+}
+body
+{
+    background-color: black;
+    margin: 0;
+
+}
