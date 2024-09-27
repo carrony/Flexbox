@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.caja p{
+    color: white;
+    background-color: #0078A6;
+    padding: 20px;
+}
