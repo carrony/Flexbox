@@ -1,0 +1,59 @@
+.cara {
+    background-color: #555;
+    border: 2px solid black;
+    width:120px;
+    height:120px;
+    padding:10px;
+    display:flex;
+}
+
+.punto {
+    background-color: white;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+}
+
+.todos {
+    display: flex;
+    gap:20px;
+}
+
+.c1 {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.c2 {
+    justify-content: space-between;
+}
+.c2 :nth-child(2) {
+    align-self: end;
+}
+
+.c3 {
+    justify-content: space-between;
+}
+
+.c3 :nth-child(2) {
+    align-self: center;
+}
+
+.c3 :nth-child(3) {
+    align-self: end;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c4, .c5, .c6 {
+    justify-content: space-between;
+}
+
+.c5 :nth-child(2) {
+    align-self: center;
+}
